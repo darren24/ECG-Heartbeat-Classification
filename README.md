@@ -11,6 +11,7 @@ Right bundle branch block beat (RBBB)
 Premature ventricular contraction (PVC)
 Dataset
 The dataset used for this project is the MIT-BIH Arrhythmia Dataset, which contains 48 half-hour excerpts of two-channel ambulatory ECG recordings from 47 subjects, annotated beat-by-beat.
+## Please refer to the ECG_Classification.ipynb file for all the work done on this project.
 
 ## Data Preprocessing
 Before training the model, the dataset was preprocessed to ensure the best possible results. The preprocessing steps included:
