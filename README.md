@@ -1,7 +1,7 @@
 # ECG Heartbeat Classification
 This project aims to classify ECG beats into different types using machine learning techniques. ECG (Electrocardiogram) is a diagnostic tool that measures and records the electrical activity of the heart in exquisite detail. By analyzing ECG signals, medical professionals can detect various heart-related abnormalities.
 
-Problem Statement
+## Problem Statement
 The goal is to develop a machine learning model that can accurately classify ECG beats into one of the five following classes:
 
 Normal beat (N)
