@@ -1,2 +1,48 @@
-# ECG-Heartbeat-Classification
-ECG Heartbeat Classification: Classifies ECG beats into 5 types (Normal, Atrial Premature, Left/Right Bundle Branch Block, Premature Ventricular Contraction) using machine learning. Repository includes Jupyter Notebook, data files, and web app for user interaction.
+# ECG Heartbeat Classification
+This project aims to classify ECG beats into different types using machine learning techniques. ECG (Electrocardiogram) is a diagnostic tool that measures and records the electrical activity of the heart in exquisite detail. By analyzing ECG signals, medical professionals can detect various heart-related abnormalities.
+
+Problem Statement
+The goal is to develop a machine learning model that can accurately classify ECG beats into one of the five following classes:
+
+Normal beat (N)
+Atrial premature beat (APB)
+Left bundle branch block beat (LBBB)
+Right bundle branch block beat (RBBB)
+Premature ventricular contraction (PVC)
+Dataset
+The dataset used for this project is the MIT-BIH Arrhythmia Dataset, which contains 48 half-hour excerpts of two-channel ambulatory ECG recordings from 47 subjects, annotated beat-by-beat.
+
+Data Preprocessing
+Before training the model, the dataset was preprocessed to ensure the best possible results. The preprocessing steps included:
+
+Signal filtering: Remove high-frequency noise and baseline wander using Butterworth filters.
+R-peak detection: Identify the R-peaks in the ECG signal to segment individual heartbeats.
+Feature extraction: Extract relevant features from the ECG beats that can be used as input for the machine learning model.
+Model Training
+Various machine learning algorithms were evaluated, including:
+
+Logistic Regression
+Decision Trees
+Random Forest
+Support Vector Machines
+Neural Networks
+After comparing their performance, the best model was selected based on metrics such as accuracy, precision, recall, and F1 score.
+
+Model Evaluation
+The chosen model was evaluated using cross-validation and a hold-out test set. The performance metrics (accuracy, precision, recall, F1 score) were calculated to determine the effectiveness of the model in classifying ECG beats.
+
+Web App
+A web application was developed to provide an easy-to-use interface for users to interact with the ECG heartbeat classification model. Users can upload their ECG data files and get real-time predictions of the ECG beat types.
+
+Dependencies
+Python 3.7+
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+Flask
+Usage
+
+Conclusion
+This project demonstrates the potential of using machine learning for automated ECG beat classification, which can aid medical professionals in diagnosing and monitoring various heart-related conditions.
