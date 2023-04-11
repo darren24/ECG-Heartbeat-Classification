@@ -12,29 +12,29 @@ Premature ventricular contraction (PVC)
 Dataset
 The dataset used for this project is the MIT-BIH Arrhythmia Dataset, which contains 48 half-hour excerpts of two-channel ambulatory ECG recordings from 47 subjects, annotated beat-by-beat.
 
-Data Preprocessing
+## Data Preprocessing
 Before training the model, the dataset was preprocessed to ensure the best possible results. The preprocessing steps included:
 
-Signal filtering: Remove high-frequency noise and baseline wander using Butterworth filters.
-R-peak detection: Identify the R-peaks in the ECG signal to segment individual heartbeats.
-Feature extraction: Extract relevant features from the ECG beats that can be used as input for the machine learning model.
-Model Training
+1. Signal filtering: Remove high-frequency noise and baseline wander using Butterworth filters.
+2. R-peak detection: Identify the R-peaks in the ECG signal to segment individual heartbeats.
+3. Feature extraction: Extract relevant features from the ECG beats that can be used as input for the machine learning model.
+
+## Model Training
 Various machine learning algorithms were evaluated, including:
 
-Logistic Regression
-Decision Trees
-Random Forest
-Support Vector Machines
-Neural Networks
+1. Random Forest
+2. Support Vector Machines
+3. Convolutional Neural Network
+4. Long Short-Term Memory (LSTM)
 After comparing their performance, the best model was selected based on metrics such as accuracy, precision, recall, and F1 score.
 
-Model Evaluation
+## Model Evaluation
 The chosen model was evaluated using cross-validation and a hold-out test set. The performance metrics (accuracy, precision, recall, F1 score) were calculated to determine the effectiveness of the model in classifying ECG beats.
 
-Web App
+## Web App
 A web application was developed to provide an easy-to-use interface for users to interact with the ECG heartbeat classification model. Users can upload their ECG data files and get real-time predictions of the ECG beat types.
 
-Dependencies
+## Dependencies
 Python 3.7+
 pandas
 numpy
@@ -44,5 +44,5 @@ matplotlib
 Flask
 Usage
 
-Conclusion
+## Conclusion
 This project demonstrates the potential of using machine learning for automated ECG beat classification, which can aid medical professionals in diagnosing and monitoring various heart-related conditions.
