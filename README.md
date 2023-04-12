@@ -1,4 +1,4 @@
-# ECG Heartbeat Classification
+# ECG Heartbeat Classification (https://ecgbeat.herokuapp.com)
 This project aims to classify ECG beats into different types using machine learning techniques. ECG (Electrocardiogram) is a diagnostic tool that measures and records the electrical activity of the heart in exquisite detail. By analyzing ECG signals, medical professionals can detect various heart-related abnormalities.
 
 ## Problem Statement
@@ -34,7 +34,7 @@ The chosen model was evaluated using cross-validation and a hold-out test set. T
 
 ## Web App
 A web application was developed to provide an easy-to-use interface for users to interact with the ECG heartbeat classification model. Users can upload their ECG data files and get real-time predictions of the ECG beat types.
-To check out the Web app go to link ## https://ecgbeat.herokuapp.com
+To check out the Web app go to the link https://ecgbeat.herokuapp.com
 
 ## Dependencies
 Python 3.7+
